@@ -1,0 +1,24 @@
+\\hwnas\HDrives\1714672\Documents\GitHub\project\projectDev\projectDev\bin\Debug\netcoreapp2.0\projectDev.deps.json
+\\hwnas\HDrives\1714672\Documents\GitHub\project\projectDev\projectDev\bin\Debug\netcoreapp2.0\projectDev.runtimeconfig.json
+\\hwnas\HDrives\1714672\Documents\GitHub\project\projectDev\projectDev\bin\Debug\netcoreapp2.0\projectDev.runtimeconfig.dev.json
+\\hwnas\HDrives\1714672\Documents\GitHub\project\projectDev\projectDev\bin\Debug\netcoreapp2.0\projectDev.dll
+\\hwnas\HDrives\1714672\Documents\GitHub\project\projectDev\projectDev\bin\Debug\netcoreapp2.0\projectDev.pdb
+\\hwnas\HDrives\1714672\Documents\GitHub\project\projectDev\projectDev\obj\Debug\netcoreapp2.0\projectDev.csprojResolveAssemblyReference.cache
+\\hwnas\HDrives\1714672\Documents\GitHub\project\projectDev\projectDev\obj\Debug\netcoreapp2.0\projectDev.csproj.CoreCompileInputs.cache
+\\hwnas\HDrives\1714672\Documents\GitHub\project\projectDev\projectDev\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+\\hwnas\HDrives\1714672\Documents\GitHub\project\projectDev\projectDev\obj\Debug\netcoreapp2.0\projectDev.AssemblyInfoInputs.cache
+\\hwnas\HDrives\1714672\Documents\GitHub\project\projectDev\projectDev\obj\Debug\netcoreapp2.0\projectDev.AssemblyInfo.cs
+\\hwnas\HDrives\1714672\Documents\GitHub\project\projectDev\projectDev\obj\Debug\netcoreapp2.0\projectDev.dll
+\\hwnas\HDrives\1714672\Documents\GitHub\project\projectDev\projectDev\obj\Debug\netcoreapp2.0\projectDev.pdb
+E:\year 2\D202 software process\project\projectDev\projectDev\bin\Debug\netcoreapp2.0\projectDev.deps.json
+E:\year 2\D202 software process\project\projectDev\projectDev\bin\Debug\netcoreapp2.0\projectDev.runtimeconfig.json
+E:\year 2\D202 software process\project\projectDev\projectDev\bin\Debug\netcoreapp2.0\projectDev.runtimeconfig.dev.json
+E:\year 2\D202 software process\project\projectDev\projectDev\bin\Debug\netcoreapp2.0\projectDev.dll
+E:\year 2\D202 software process\project\projectDev\projectDev\bin\Debug\netcoreapp2.0\projectDev.pdb
+E:\year 2\D202 software process\project\projectDev\projectDev\obj\Debug\netcoreapp2.0\projectDev.csprojResolveAssemblyReference.cache
+E:\year 2\D202 software process\project\projectDev\projectDev\obj\Debug\netcoreapp2.0\projectDev.csproj.CoreCompileInputs.cache
+E:\year 2\D202 software process\project\projectDev\projectDev\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+E:\year 2\D202 software process\project\projectDev\projectDev\obj\Debug\netcoreapp2.0\projectDev.AssemblyInfoInputs.cache
+E:\year 2\D202 software process\project\projectDev\projectDev\obj\Debug\netcoreapp2.0\projectDev.AssemblyInfo.cs
+E:\year 2\D202 software process\project\projectDev\projectDev\obj\Debug\netcoreapp2.0\projectDev.dll
+E:\year 2\D202 software process\project\projectDev\projectDev\obj\Debug\netcoreapp2.0\projectDev.pdb
