@@ -22,3 +22,15 @@ E:\year 2\D202 software process\project\projectDev\projectDev\obj\Debug\netcorea
 E:\year 2\D202 software process\project\projectDev\projectDev\obj\Debug\netcoreapp2.0\projectDev.AssemblyInfo.cs
 E:\year 2\D202 software process\project\projectDev\projectDev\obj\Debug\netcoreapp2.0\projectDev.dll
 E:\year 2\D202 software process\project\projectDev\projectDev\obj\Debug\netcoreapp2.0\projectDev.pdb
+\\hwnas\hdrives\1714672\Documents\GitHub\jubilant-giggle\projectDev\projectDev\bin\Debug\netcoreapp2.0\projectDev.deps.json
+\\hwnas\hdrives\1714672\Documents\GitHub\jubilant-giggle\projectDev\projectDev\bin\Debug\netcoreapp2.0\projectDev.runtimeconfig.json
+\\hwnas\hdrives\1714672\Documents\GitHub\jubilant-giggle\projectDev\projectDev\bin\Debug\netcoreapp2.0\projectDev.runtimeconfig.dev.json
+\\hwnas\hdrives\1714672\Documents\GitHub\jubilant-giggle\projectDev\projectDev\bin\Debug\netcoreapp2.0\projectDev.dll
+\\hwnas\hdrives\1714672\Documents\GitHub\jubilant-giggle\projectDev\projectDev\bin\Debug\netcoreapp2.0\projectDev.pdb
+\\hwnas\hdrives\1714672\Documents\GitHub\jubilant-giggle\projectDev\projectDev\obj\Debug\netcoreapp2.0\projectDev.csprojResolveAssemblyReference.cache
+\\hwnas\hdrives\1714672\Documents\GitHub\jubilant-giggle\projectDev\projectDev\obj\Debug\netcoreapp2.0\projectDev.csproj.CoreCompileInputs.cache
+\\hwnas\hdrives\1714672\Documents\GitHub\jubilant-giggle\projectDev\projectDev\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+\\hwnas\hdrives\1714672\Documents\GitHub\jubilant-giggle\projectDev\projectDev\obj\Debug\netcoreapp2.0\projectDev.AssemblyInfoInputs.cache
+\\hwnas\hdrives\1714672\Documents\GitHub\jubilant-giggle\projectDev\projectDev\obj\Debug\netcoreapp2.0\projectDev.AssemblyInfo.cs
+\\hwnas\hdrives\1714672\Documents\GitHub\jubilant-giggle\projectDev\projectDev\obj\Debug\netcoreapp2.0\projectDev.dll
+\\hwnas\hdrives\1714672\Documents\GitHub\jubilant-giggle\projectDev\projectDev\obj\Debug\netcoreapp2.0\projectDev.pdb

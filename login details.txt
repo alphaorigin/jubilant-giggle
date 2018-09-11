@@ -1,0 +1,2 @@
+put sql login information in this file
+i will try to configure login info into a master file
