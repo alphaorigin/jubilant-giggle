@@ -1,2 +1,5 @@
 put sql login information in this file
 i will try to configure login info into a master file
+
+Jayden:
+c948cf97-51e8-4193-980d-0aff112eb603	0	0d497208-0645-4841-bb19-14839fbe043e	1720517@studentmail.ucol.ac.nz	False	True	NULL	1720517@STUDENTMAIL.UCOL.AC.NZ	1720517@STUDENTMAIL.UCOL.AC.NZ	AQAAAAEAACcQAAAAEGwtoI9TgsYHhb136NYt/yjBLUuuGQZJCCs8o32ZSbsFlfY9uXczWgWWN/ktdaeLAA==	NULL	False	34fa1727-7cdb-4522-8047-d8868703ae61	False	1720517@studentmail.ucol.ac.nz
