@@ -13131,11 +13131,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "\\\\hwnas\\HDrives\\1714672\\Documents\\GitHub\\jubilant-giggle\\projectDev\\projectDev\\projectDev.csproj",
+      "projectUniqueName": "\\\\hwnas\\hdrives\\1714672\\Documents\\GitHub\\jubilant-giggle\\projectDev\\projectDev\\projectDev.csproj",
       "projectName": "projectDev",
-      "projectPath": "\\\\hwnas\\HDrives\\1714672\\Documents\\GitHub\\jubilant-giggle\\projectDev\\projectDev\\projectDev.csproj",
+      "projectPath": "\\\\hwnas\\hdrives\\1714672\\Documents\\GitHub\\jubilant-giggle\\projectDev\\projectDev\\projectDev.csproj",
       "packagesPath": "C:\\Users\\1714672\\.nuget\\packages\\",
-      "outputPath": "\\\\hwnas\\HDrives\\1714672\\Documents\\GitHub\\jubilant-giggle\\projectDev\\projectDev\\obj\\",
+      "outputPath": "\\\\hwnas\\hdrives\\1714672\\Documents\\GitHub\\jubilant-giggle\\projectDev\\projectDev\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
