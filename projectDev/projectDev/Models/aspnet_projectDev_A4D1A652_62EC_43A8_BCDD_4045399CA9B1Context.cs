@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using projectDev.Models;
 
 namespace projectDev.Models
 {
@@ -179,5 +180,9 @@ namespace projectDev.Models
                     .HasConstraintName("FK_dbo.AspNetUsers");
             });
         }
+
+
+
+        public DbSet<projectDev.Models.CourseMarks> CourseMarks { get; set; }
     }
 }
