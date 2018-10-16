@@ -32,11 +32,14 @@ namespace projectDev
             services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
-
-            // Add application services.
+                       //Add application services.
             services.AddTransient<IEmailSender, EmailSender>();
 
             services.AddMvc();
+
+            var connection = @"Server=(localdb)\mssqllocaldb;Database=aspnet-projectDev-A4D1A652-62EC-43A8-BCDD-4045399CA9B1;Trusted_Connection=True;ConnectRetryCount=0";
+            services.AddDbContext<aspnet_projectDev_A4D1A652_62EC_43A8_BCDD_4045399CA9B1Context>(options => options.UseSqlServer(connection));
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
