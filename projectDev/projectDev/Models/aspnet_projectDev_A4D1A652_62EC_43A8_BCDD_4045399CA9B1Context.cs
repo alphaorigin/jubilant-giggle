@@ -184,5 +184,9 @@ namespace projectDev.Models
 
 
         public DbSet<projectDev.Models.CourseMarks> CourseMarks { get; set; }
+
+
+
+        public DbSet<projectDev.Models.Enrolments> Enrolments { get; set; }
     }
 }
