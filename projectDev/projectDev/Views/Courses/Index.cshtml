@@ -1,83 +1,92 @@
-﻿@model IEnumerable<projectDev.Models.Course>
+﻿@using Microsoft.AspNetCore.Identity
+@using projectDev.Models
 
-@{
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+@if (SignInManager.IsSignedIn(User))
+{
+    @model IEnumerable<projectDev.Models.Course>
+
+    //@{
     ViewData["Title"] = "Courses Available";
-}
+    //}
 
-<h2>Courses Available</h2>
-<form asp-controller="Courses" asp-action="Index">
-    <p>
-        Title: <input type="text" name="id">
-        <input type="submit" value="Search Categories" />
-    </p>
-</form>
+    <h2>Courses Available</h2>
+    <form asp-controller="Courses" asp-action="Index">
+        <p>
+            Course Type: <input type="text" name="id">
+            <input type="submit" value="Search Categories" />
+        </p>
+    </form>
     <p>
         <a asp-action="Create">Create New</a>
     </p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.CourseName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Description)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Year)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Semester)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Marks)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Prerequisites)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CourseCatergory)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Complusory)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
+    <table class="table">
+        <thead>
             <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.CourseName)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Description)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Year)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Semester)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Marks)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Prerequisites)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.CourseCatergory)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Complusory)
-                </td>
-                @*<td>
-                    <a asp-action="Edit" asp-route-id="@item.CourseId">Edit</a>
-                    <a asp-action="Details" asp-route-id="@item.CourseId">Details</a>
-                    <a asp-action="Delete" asp-route-id="@item.CourseId">Delete</a> ||
-                </td>*@
+                <th>
+                    @Html.DisplayNameFor(model => model.CourseName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Description)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Year)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Semester)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Marks)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Prerequisites)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CourseCatergory)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Complusory)
+                </th>
+                <th></th>
             </tr>
-        }
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CourseName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Year)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Semester)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Marks)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Prerequisites)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CourseCatergory)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Complusory)
+                    </td>
+                    @*<td>
+                            <a asp-action="Edit" asp-route-id="@item.CourseId">Edit</a>
+                            <a asp-action="Details" asp-route-id="@item.CourseId">Details</a>
+                            <a asp-action="Delete" asp-route-id="@item.CourseId">Delete</a> ||
+                        </td>*@
+                </tr>
+            }
+        </tbody>
+    </table>
+}

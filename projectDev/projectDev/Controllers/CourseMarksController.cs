@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using projectDev.Models;
+using Microsoft.AspNetCore.Identity;
 
 namespace projectDev.Controllers
 {
@@ -13,9 +14,11 @@ namespace projectDev.Controllers
     {
         private readonly aspnet_projectDev_A4D1A652_62EC_43A8_BCDD_4045399CA9B1Context _context;
 
+
         public CourseMarksController(aspnet_projectDev_A4D1A652_62EC_43A8_BCDD_4045399CA9B1Context context)
         {
             _context = context;
+
         }
 
         // GET: CourseMarks

@@ -1,17 +1,33 @@
-﻿@model IEnumerable<projectDev.Models.CourseMarks>
+﻿@using Microsoft.AspNetCore.Identity
+@using projectDev.Models
 
-@{
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+@if (SignInManager.IsSignedIn(User))
+{
+    User.Identity.Name.ToString();
+@*<form asp-controller="CourseMarks" asp-action="Index" hidden>
+    <p>
+        <input type="text" name="id">
+        <input type="submit" value="Search Categories" />
+    </p>
+</form>*@
+
+    @model IEnumerable<projectDev.Models.CourseMarks>
+
+    //@{
     ViewData["Title"] = "Courses Passes";
-}
+    //}
 
-<h2>Course Marks</h2>
+    <h2>Course Marks</h2>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
+    <p>
+        <a asp-action="Create">Create New</a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
                 <th>
                     @Html.DisplayNameFor(model => model.StudentId)
                 </th>
@@ -33,41 +49,44 @@
                 <th>
                     @Html.DisplayNameFor(model => model.CoursePass)
                 </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-    if (item.StudentId == 100) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.StudentId)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CourseId)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Yeartaken)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Semester)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CourseMark)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CourseGrade)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CoursePass)
-            </td>
-            @*<td>
-                <a asp-action="Edit" asp-route-id="@item.CourseId">Edit</a>
-                <a asp-action="Details" asp-route-id="@item.CourseId">Details</a>
-                <a asp-action="Delete" asp-route-id="@item.CourseId">Delete</a> ||
-            </td>*@
-        </tr>
-    }
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                if (item.StudentId == 100)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.StudentId)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CourseId)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Yeartaken)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Semester)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CourseMark)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CourseGrade)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CoursePass)
+                        </td>
+                        @*<td>
+                                <a asp-action="Edit" asp-route-id="@item.CourseId">Edit</a>
+                                <a asp-action="Details" asp-route-id="@item.CourseId">Details</a>
+                                <a asp-action="Delete" asp-route-id="@item.CourseId">Delete</a> ||
+                            </td>*@
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
 }
-    </tbody>
-</table>
