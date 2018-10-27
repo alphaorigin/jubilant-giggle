@@ -7,12 +7,12 @@
 @if (SignInManager.IsSignedIn(User))
 {
     User.Identity.Name.ToString();
-@*<form asp-controller="CourseMarks" asp-action="Index" hidden>
-    <p>
-        <input type="text" name="id">
-        <input type="submit" value="Search Categories" />
-    </p>
-</form>*@
+    @*<form asp-controller="CourseMarks" asp-action="Index" hidden>
+            <p>
+                <input type="text" name="id">
+                <input type="submit" value="Search Categories" />
+            </p>
+        </form>*@
 
     @model IEnumerable<projectDev.Models.CourseMarks>
 
@@ -90,3 +90,9 @@
         </tbody>
     </table>
 }
+else
+{
+    <div>
+        <h1>Please Login to View Course Marks.</h1>
+    </div>
+}     

@@ -13131,18 +13131,18 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "\\\\hwnas\\hdrives\\1714672\\Documents\\GitHub\\jubilant-giggle\\projectDev\\projectDev\\projectDev.csproj",
+      "projectUniqueName": "\\\\hwnas\\HDrives\\1714672\\Documents\\GitHub\\jubilant-giggle\\projectDev\\projectDev\\projectDev.csproj",
       "projectName": "projectDev",
-      "projectPath": "\\\\hwnas\\hdrives\\1714672\\Documents\\GitHub\\jubilant-giggle\\projectDev\\projectDev\\projectDev.csproj",
+      "projectPath": "\\\\hwnas\\HDrives\\1714672\\Documents\\GitHub\\jubilant-giggle\\projectDev\\projectDev\\projectDev.csproj",
       "packagesPath": "C:\\Users\\1714672\\.nuget\\packages\\",
-      "outputPath": "\\\\hwnas\\hdrives\\1714672\\Documents\\GitHub\\jubilant-giggle\\projectDev\\projectDev\\obj\\",
+      "outputPath": "\\\\hwnas\\HDrives\\1714672\\Documents\\GitHub\\jubilant-giggle\\projectDev\\projectDev\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "\\\\hwnas\\HDrives\\1714672\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\1714672\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
