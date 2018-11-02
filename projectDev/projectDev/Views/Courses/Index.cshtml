@@ -13,11 +13,14 @@
     //}
 
     <h2>Courses Available</h2>
-    <form asp-controller="Courses" asp-action="Index">
-        <p>
-            Course Type: <input type="text" name="id">
-            <input type="submit" value="Search Categories" />
-        </p>
+    <form asp-action="Index" method="get">
+        <div class="form-actions no-color">
+            <p>
+                Find by course: <input type="text" name="searchString" value="@ViewData["CurrentFilter"]" />
+                <input type="submit" value="Search" class="btn btn-default" /><span> | </span>
+                <a asp-action="Index">Back to Full List</a>
+            </p>
+        </div>
     </form>
     <p>
         <a asp-action="Create">Create New</a>

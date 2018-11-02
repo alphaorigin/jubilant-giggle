@@ -106,3 +106,15 @@ H:\Documents\GitHub\jubilant-giggle\jubilant-giggle\projectDev\projectDev\obj\De
 H:\Documents\GitHub\jubilant-giggle\jubilant-giggle\projectDev\projectDev\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
 H:\Documents\GitHub\jubilant-giggle\jubilant-giggle\projectDev\projectDev\obj\Debug\netcoreapp2.0\projectDev.AssemblyInfoInputs.cache
 H:\Documents\GitHub\jubilant-giggle\jubilant-giggle\projectDev\projectDev\obj\Debug\netcoreapp2.0\projectDev.AssemblyInfo.cs
+D:\Dev\New folder\jubilant-giggle\projectDev\projectDev\bin\Debug\netcoreapp2.0\projectDev.deps.json
+D:\Dev\New folder\jubilant-giggle\projectDev\projectDev\bin\Debug\netcoreapp2.0\projectDev.runtimeconfig.json
+D:\Dev\New folder\jubilant-giggle\projectDev\projectDev\bin\Debug\netcoreapp2.0\projectDev.runtimeconfig.dev.json
+D:\Dev\New folder\jubilant-giggle\projectDev\projectDev\bin\Debug\netcoreapp2.0\projectDev.dll
+D:\Dev\New folder\jubilant-giggle\projectDev\projectDev\bin\Debug\netcoreapp2.0\projectDev.pdb
+D:\Dev\New folder\jubilant-giggle\projectDev\projectDev\obj\Debug\netcoreapp2.0\projectDev.csprojAssemblyReference.cache
+D:\Dev\New folder\jubilant-giggle\projectDev\projectDev\obj\Debug\netcoreapp2.0\projectDev.csproj.CoreCompileInputs.cache
+D:\Dev\New folder\jubilant-giggle\projectDev\projectDev\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+D:\Dev\New folder\jubilant-giggle\projectDev\projectDev\obj\Debug\netcoreapp2.0\projectDev.AssemblyInfoInputs.cache
+D:\Dev\New folder\jubilant-giggle\projectDev\projectDev\obj\Debug\netcoreapp2.0\projectDev.AssemblyInfo.cs
+D:\Dev\New folder\jubilant-giggle\projectDev\projectDev\obj\Debug\netcoreapp2.0\projectDev.dll
+D:\Dev\New folder\jubilant-giggle\projectDev\projectDev\obj\Debug\netcoreapp2.0\projectDev.pdb

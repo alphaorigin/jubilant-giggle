@@ -20,14 +20,14 @@ namespace projectDev.Controllers
 
         // GET: Courses
 
-        public async Task<IActionResult> Index(string id)
+        public async Task<IActionResult> Index(string searchString)
         {
-            var courses = from m in _context.Course
-                select m;
-
-            if (!String.IsNullOrEmpty(id))
+            ViewData["CurrentFilter"] = searchString;
+            var courses = from c in _context.Course
+                          select c;
+            if (!String.IsNullOrEmpty(searchString))
             {
-                courses = courses.Where(s => s.CourseCatergory.Contains(id));
+                courses = courses.Where(c => c.CourseCatergory.Contains(searchString));
             }
 
             return View(await courses.ToListAsync());
@@ -58,7 +58,7 @@ namespace projectDev.Controllers
         }
 
         // POST: Courses/Create
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
+        // To protect from overposting attacks, please enable the specific properties you want to bind to, for
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -90,7 +90,7 @@ namespace projectDev.Controllers
         }
 
         // POST: Courses/Edit/5
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
+        // To protect from overposting attacks, please enable the specific properties you want to bind to, for
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
