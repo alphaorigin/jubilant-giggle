@@ -1,0 +1,17 @@
+H:\Documents\GitHub\jubilant-giggle\projectDev\UnitTestProject1\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+H:\Documents\GitHub\jubilant-giggle\projectDev\UnitTestProject1\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+H:\Documents\GitHub\jubilant-giggle\projectDev\UnitTestProject1\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+H:\Documents\GitHub\jubilant-giggle\projectDev\UnitTestProject1\bin\Debug\netcoreapp2.0\UnitTestProject1.deps.json
+H:\Documents\GitHub\jubilant-giggle\projectDev\UnitTestProject1\bin\Debug\netcoreapp2.0\UnitTestProject1.runtimeconfig.json
+H:\Documents\GitHub\jubilant-giggle\projectDev\UnitTestProject1\bin\Debug\netcoreapp2.0\UnitTestProject1.runtimeconfig.dev.json
+H:\Documents\GitHub\jubilant-giggle\projectDev\UnitTestProject1\bin\Debug\netcoreapp2.0\UnitTestProject1.dll
+H:\Documents\GitHub\jubilant-giggle\projectDev\UnitTestProject1\bin\Debug\netcoreapp2.0\UnitTestProject1.pdb
+H:\Documents\GitHub\jubilant-giggle\projectDev\UnitTestProject1\bin\Debug\netcoreapp2.0\projectDev.dll
+H:\Documents\GitHub\jubilant-giggle\projectDev\UnitTestProject1\bin\Debug\netcoreapp2.0\projectDev.pdb
+H:\Documents\GitHub\jubilant-giggle\projectDev\UnitTestProject1\obj\Debug\netcoreapp2.0\UnitTestProject1.csprojResolveAssemblyReference.cache
+H:\Documents\GitHub\jubilant-giggle\projectDev\UnitTestProject1\obj\Debug\netcoreapp2.0\UnitTestProject1.csproj.CoreCompileInputs.cache
+H:\Documents\GitHub\jubilant-giggle\projectDev\UnitTestProject1\obj\Debug\netcoreapp2.0\UnitTestProject1.AssemblyInfoInputs.cache
+H:\Documents\GitHub\jubilant-giggle\projectDev\UnitTestProject1\obj\Debug\netcoreapp2.0\UnitTestProject1.AssemblyInfo.cs
+H:\Documents\GitHub\jubilant-giggle\projectDev\UnitTestProject1\obj\Debug\netcoreapp2.0\UnitTestProject1.csproj.CopyComplete
+H:\Documents\GitHub\jubilant-giggle\projectDev\UnitTestProject1\obj\Debug\netcoreapp2.0\UnitTestProject1.dll
+H:\Documents\GitHub\jubilant-giggle\projectDev\UnitTestProject1\obj\Debug\netcoreapp2.0\UnitTestProject1.pdb
